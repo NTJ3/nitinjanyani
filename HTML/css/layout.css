@@ -39,7 +39,7 @@ p {
   font-size: 15px;
   font-weight: 400;
   font-family: Hind, sans-serif;
-  color: #a6a7aa;
+  color: #515769;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -291,7 +291,7 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .social-icons {
   display: inline-block;
-  width: 100px;
+  width: 40px;
   height: 40px;
   font-size: 16px;
   color: #fff;
@@ -310,37 +310,6 @@ fieldset[disabled] .btn-theme {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-
-/*------------------------------------------------------------------
-  	[Buttons]
-------------------------------------------------------------------*/
-.resume-button {
-  display: inline-block;
-  width: 100px;
-  height: 40px;
-  border: white;
-  border-width: 1px;
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
-  border-radius: 50%;
-  vertical-align: middle;
-  padding: 11px;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.resume-button:hover {
-  color: #515769;
-  background: #fff;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-  border: white;
-  border-width: 1px;
 }
 
 /*------------------------------------------------------------------
@@ -437,7 +406,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 100%;
   height: 100%;
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
   content: " ";
   transition-duration: 300ms;
   transition-property: all;
@@ -498,7 +467,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .work .work-popup-content-divider {
-  border-right: 1px solid #cdcecf;
+  border-right: 1px solid #737b93;
 }
 
 @media (max-width: 768px) {
@@ -507,7 +476,7 @@ fieldset[disabled] .btn-theme {
   }
   .work .work-popup-content-divider {
     border-right: none;
-    border-bottom: 1px solid #cdcecf;
+    border-bottom: 1px solid #737b93;
   }
 }
 
@@ -941,7 +910,7 @@ fieldset[disabled] .btn-theme {
   height: 50px;
   font-size: 14px;
   font-weight: 400;
-  color: #a6a7aa;
+  color: #515769;
   background: #fafafa;
   border: none;
   box-shadow: none;
@@ -950,15 +919,15 @@ fieldset[disabled] .btn-theme {
 }
 
 .form-control::-moz-placeholder {
-  color: #a6a7aa;
+  color: #515769;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #a6a7aa;
+  color: #515769;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #a6a7aa;
+  color: #515769;
 }
 
 .form-control:focus {
@@ -994,7 +963,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .color-subtitle {
-  color: #a6a7aa !important;
+  color: #515769 !important;
 }
 
 .color-link {
@@ -1025,7 +994,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .bg-color-subtitle {
-  background: #a6a7aa !important;
+  background: #515769 !important;
 }
 
 .bg-color-link {
