@@ -5,7 +5,6 @@ class StorecashInfo extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <div class="work-popup-content">
     <a href="javascript:void(0);" class="work-popup-close">Hide</a>
     <div class="margin-b-30">
         <h3 class="margin-b-5">Sotrecash</h3>
@@ -23,7 +22,6 @@ class StorecashInfo extends HTMLElement {
                 </ul>
             </div>
         </div>
-    </div>
     </div>
     `;
   }
